@@ -1,4 +1,4 @@
-`git clone https://github.com/Svs-grav/counter'
+`git clone https://github.com/Svs-grav/counter`
 
 `cd counter`
 
