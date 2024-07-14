@@ -4,17 +4,18 @@ const config = {
   parserOptions: {
     project: true,
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'prettier', 'react'],
   extends: [
-    'next/core-web-vitals',
-    'plugin:@typescript-eslint/recommended-type-checked',
-    'plugin:@typescript-eslint/stylistic-type-checked',
-    'prettier',
     'airbnb',
     'airbnb-typescript',
     'airbnb/hooks',
+    'next/core-web-vitals',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
+    'plugin:prettier/recommended',
   ],
   rules: {
+    'react/require-default-props': 'off',
     '@typescript-eslint/array-type': 'off',
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/consistent-type-imports': [
