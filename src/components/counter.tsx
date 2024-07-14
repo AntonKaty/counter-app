@@ -46,7 +46,7 @@ export default function Counter({
             -
           </Button>
         </Box>
-        <Paper sx={{ width: '4rem', m: 2 }}>
+        <Paper sx={{ minWidth: '4rem', m: 2 }}>
           <Typography
             variant="h4"
             sx={{
@@ -61,7 +61,7 @@ export default function Counter({
         </Paper>
       </Box>
       <Box sx={{ m: 2 }}>
-        <Typography sx={{ fontStyle: 'bold', textAlign: 'center' }}>
+        <Typography sx={{ fontWeight: '800', textAlign: 'center' }}>
           Formula Result: {result}
         </Typography>
       </Box>
